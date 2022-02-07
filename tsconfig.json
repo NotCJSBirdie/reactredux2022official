@@ -19,8 +19,9 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "pages/counterSlice.js",
-    "pages/store.js"
+    "pages/counterSlice.ts",
+    "pages/store.ts",
+    "pages/Counter.js"
   ],
   "exclude": ["node_modules"]
 }
