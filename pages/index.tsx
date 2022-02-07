@@ -3,7 +3,8 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { Provider } from "react-redux";
 import store from "./store";
-import Entry from "./entry";
+
+import { Counter } from "./Counter";
 
 const Home: NextPage = () => {
   return (
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
       <h1>Welcome to React Redux!</h1>
 
       <Provider store={store}>
-        <Entry />
+        <Counter />
       </Provider>
     </div>
   );
